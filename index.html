@@ -5,10 +5,43 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Ejercicio Guiado BEM</title>
-	<!-- Link archivo css-->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 	
 </head>
 <body>
-
+    <header>
+        <ul class="a-menu">
+            <li class="a-menu__item"><a class="a-menu__item__link" href="#">BLOG</a></li>
+            <li class="a-menu__item"><a class="a-menu__item__link" href="#">ABOUT</a></li>
+            <li class="a-menu__item"><a class="a-menu__item__link" href="#">CONTACTO</a></li>
+        </ul>
+    </header>
+    <!-- mi primer section -->
+    <section>
+        <div class="article">
+            <h2 class="article__title">Mermeladas</h2>
+            <p class="article__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias ab minus ducimus debitis. Accusamus obcaecati nihil, in! Enim numquam, quaerat repudiandae facilis voluptas quam aperiam inventore modi non, nam sint.</p>
+            <img class="article__img" src="img/mermeladas%20pirque.jpg" alt="">
+        </div>
+        <div class="article article--green">
+            <h2 class="article__title">Comida Saludable</h2>
+            <p class="article__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat in fuga, rem doloribus, a non ex modi sit, accusamus quasi facere. Corporis repellat temporibus eligendi illo consequuntur, atque unde delectus!</p>
+            <img class="article__img" src="img/comida-vegana-230x130.jpg" alt="">
+        </div>
+        <div class="article article--green">
+            <h2 class="article__title">Los beneficios de la Miel</h2>
+            <p class="article__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci mollitia aspernatur ea maxime, velit deserunt tempore, obcaecati quis, iste pariatur cumque voluptatum distinctio cum. Molestiae saepe quisquam, error vero hic.</p>
+            <img class="article__img" src="img/MIEL-DE-ABEJA-230x130.png" alt="">
+        </div>
+    </section>
+    <!-- section de mi footer pie de pagina -->
+    <footer class="pie">
+        <p class="pie__item--center">
+            Create by Someone
+        </p>
+    </footer>
 </body>
 </html>
